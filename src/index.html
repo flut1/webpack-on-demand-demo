@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>webpack-on-demand demo</title>
+  <style>
+    .result {
+      padding: 10px;
+      min-height: 1rem;
+      background: #DEDEDE;
+      margin-bottom: 20px;
+      max-width: 600px;
+    }
+  </style>
+</head>
+<body>
+
+<h1>webpack-on-demand demo</h1>
+
+<button id="trigger-demand-1">Load module 1</button>
+<div class="result" id="result-demand-1"></div>
+
+<button id="trigger-demand-2">Load module 2</button>
+<div class="result" id="result-demand-2"></div>
+
+<button id="trigger-demand-3">Load module 3</button>
+<div class="result" id="result-demand-3"></div>
+
+<button id="trigger-demand-4">Load module 4 (with syntax error)</button>
+<div class="result" id="result-demand-4"></div>
+
+</body>
+</html>
